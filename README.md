@@ -98,6 +98,6 @@ streamlit run app.py
 
 ## About
 
-Built by [Chandana Nuthangi](https://github.com/chandana-nuthangi) as part of the **from-floor-to-data** portfolio.
+Built by [Chandana Nuthangi](https://github.com/chandana-nuthangi). M.Sc. Data Science thesis.
 
-License: MIT
+Fine-tuned model available on [HuggingFace Hub](https://huggingface.co/chandanaau/distilbert-telugu-ner).
