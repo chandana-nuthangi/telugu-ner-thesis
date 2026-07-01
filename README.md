@@ -6,9 +6,9 @@ Fine-tuning DistilBERT-multilingual for Named Entity Recognition on Telugu, with
 
 ---
 
-## The business problem
+## The research problem
 
-Telugu has ~80 million speakers but remains **low-resource for NLP** — labelled datasets, pretraining corpora, and benchmarks are sparse. Existing SOTA Telugu NER models (IndicNER, MuRIL fine-tuned) achieve ~0.80 F1 but require 180–240M parameter models that are expensive to deploy at scale.
+Telugu has ~80 million speakers but remains **low-resource for NLP** — labelled datasets, pretraining corpora, and benchmarks are sparse. Existing SOTA Telugu NER models (IndicNER, MuRIL fine-tuned) achieve ~0.80 F1 but require 180–240M parameter models that are expensive to deploy at scale. This raises a research question about **model efficiency tradeoffs for low-resource NLP**: how much accuracy is lost when the model is heavily compressed via distillation, and is that loss acceptable for practical deployment?
 
 **The question this project answers:** Can a smaller, faster, distilled multilingual model deliver acceptable Telugu NER performance through transfer learning?
 
