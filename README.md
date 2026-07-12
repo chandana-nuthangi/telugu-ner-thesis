@@ -2,7 +2,7 @@
 
 Fine-tuning DistilBERT-multilingual for Named Entity Recognition on Telugu, with a deployed Streamlit app for PDF entity extraction.
 
-**Result: F1 = 0.78** on the manually annotated Naamapadam test set — within 2 points of published SOTA (IndicNER), using a **2.7× smaller model** trained on **10% of the data**.
+**Result: F1 = 0.78** on Naamapadam test set — within 2 points of published SOTA (IndicNER), using a **2.7× smaller model** trained on **10% of the data**.
 
 ---
 
